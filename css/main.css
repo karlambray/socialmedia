@@ -6,13 +6,18 @@ html {
     font-family: sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
+/* -------------------------------------------- HEADER -------------------------------------------- */
+
 header {
     background: #3b599b;
     padding: 15px;
 }
 
 header a {
-    text-decoration: none;
     color: white;
 }
 
@@ -31,6 +36,8 @@ header a {
     width: 15%;
     padding: 0 20px;
     margin-left: -4px;
+    font-size: 20px;
+    font-weight: 300;
 }
 
 .menu {
@@ -68,4 +75,65 @@ header a {
     width: 55%;
     text-align: right;
     margin-left: -4px;
+}
+
+/* -------------------------------------------- TOP AREA -------------------------------------------- */
+
+#top-area {
+    padding: 200px 15px 100px 15px;
+    background: url(../img/flowers.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.profile-info .user-img {
+    padding: 0 50px;
+    display: inline-block;
+}
+
+.profile-info .user-img img {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+.profile-info .user-details {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.profile-info .user-details h3 {
+    color: white;
+    font-weight: 250;
+    font-size: 24px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.profile-info .user-details a {
+    display: inline-block;
+    color: white;
+    padding: 5px;
+    margin: 10px 5px;
+    font-size: 12px;
+    border-radius: 5%;
+    background: rgba(255, 255, 255, 0.3);
+    transition: background .3s ease-in-out;
+}
+
+.profile-info .user-details a:hover {
+    background: #2196f3;
+}
+
+/* -------------------------------------------- CONTENT AREA -------------------------------------------- */
+
+.side-column {
+    float: left;
+    margin: 0 2.5%;
+    width:25%;
+}
+
+.main-column {
+    float: left;
+    margin: 0 2.5%;
+    width: 65%;
 }
