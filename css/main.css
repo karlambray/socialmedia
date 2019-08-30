@@ -112,7 +112,7 @@ header a {
 .profile-info .user-details a {
     display: inline-block;
     color: white;
-    padding: 5px;
+    padding: 10px;
     margin: 10px 5px;
     font-size: 12px;
     border-radius: 5%;
@@ -126,6 +126,10 @@ header a {
 
 /* -------------------------------------------- CONTENT AREA -------------------------------------------- */
 
+#content-area {
+    padding: 15px 0;
+}
+
 .side-column {
     float: left;
     margin: 0 2.5%;
@@ -136,4 +140,41 @@ header a {
     float: left;
     margin: 0 2.5%;
     width: 65%;
+}
+
+.widget-head {
+    margin: 20px 0;
+    padding: 0 10px;
+}
+
+.widget-box {
+    box-shadow: 0px 10px 10px -5px rgba(138, 138, 138, 1);
+    padding: 0 30px;
+    margin: 0 0 40px 0;
+    overflow: auto;
+    max-width: 350px;
+}
+
+.widget-img-box {
+    display: inline-block;
+}
+
+.widget-img {
+    background: #bfbfbf;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.widget-img .fas {
+    color: white;
+    font-size: 22px;
+}
+
+.widget-title {
+    display: inline-block;
+    padding: 10px 15px;
 }
